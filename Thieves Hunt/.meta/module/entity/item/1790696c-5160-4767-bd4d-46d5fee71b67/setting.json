@@ -1,0 +1,47 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Tall Building Frames Under Construction/g2035_decorate_building_construction.actor"
+    },
+    "boundingVolume": {
+      "position": {
+        "x": 1
+      },
+      "size": {
+        "x": 15.6,
+        "y": 25.8,
+        "z": 38.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "memory": {
+        "Sector": "1.000000-0.500000"
+      },
+      "position": {
+        "x": 1
+      },
+      "size": {
+        "x": 15.6,
+        "y": 25.8,
+        "z": 38.6
+      }
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_1790696c-5160-4767-bd4d-46d5fee71b67"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2a946f989cf8295f43c46fa920aed9b1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

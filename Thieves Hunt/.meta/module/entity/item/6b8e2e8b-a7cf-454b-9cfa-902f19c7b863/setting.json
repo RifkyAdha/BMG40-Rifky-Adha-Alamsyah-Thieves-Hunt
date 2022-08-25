@@ -1,0 +1,35 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Yellow Slope Roof Well/Water Well1.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "x": 1.6,
+        "y": 2.8,
+        "z": 1.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "x": 1.6,
+        "y": 2.8,
+        "z": 1.6
+      }
+    },
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_6b8e2e8b-a7cf-454b-9cfa-902f19c7b863"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e32a816c25d0bb319d901112c5e1553f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

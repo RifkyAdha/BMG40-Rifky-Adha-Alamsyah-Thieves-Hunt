@@ -1,0 +1,30 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/White  Police Car with English Words/English·Police Car.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "x": 1.6,
+        "z": 3.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "x": 1.6,
+        "z": 3.6
+      }
+    },
+    "collision": true,
+    "name": {
+      "value": "entity_e5219f9c-81d5-460b-a74b-d33024c60236"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b64afe6ea3ccaf52d20002d86dd4a31f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

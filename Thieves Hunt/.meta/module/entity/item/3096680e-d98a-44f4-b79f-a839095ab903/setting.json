@@ -1,0 +1,35 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Yellow Slope Top Well/Water Well2.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "x": 1.6,
+        "y": 2.8,
+        "z": 1.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "x": 1.6,
+        "y": 2.8,
+        "z": 1.6
+      }
+    },
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_3096680e-d98a-44f4-b79f-a839095ab903"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ee40cd1504acdb46b49c3a12f43b9695",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

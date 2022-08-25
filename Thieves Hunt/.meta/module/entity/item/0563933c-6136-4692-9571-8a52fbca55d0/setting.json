@@ -1,0 +1,38 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue And White Double-Storey Police Station Building/g2035_house_test.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "x": 13.6,
+        "y": 8.8,
+        "z": 12.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "x": 13.6,
+        "y": 8.8,
+        "z": 12.6
+      }
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_0563933c-6136-4692-9571-8a52fbca55d0"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e80a051ca8fc7954cb6fe820bab7b819",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Green Sharp-Leaf Flower Bush/Haystack With Flowers.actor"
+    },
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_ef730a37-3de4-43fb-b73f-dc285a259b9b"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "29942a2b503b402ad5ef44e4f40df9ed",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}
