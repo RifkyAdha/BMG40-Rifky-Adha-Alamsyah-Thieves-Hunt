@@ -1,0 +1,57 @@
+{
+  "data": {
+    "boundingVolume": {
+      "height": 0.85075600445271,
+      "height_c": 1,
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
+      "position": {
+        "x": 0.00027799978852272,
+        "z": -0.087489001452923
+      },
+      "radius": 0.39793700352311,
+      "size": {
+        "x": 0.25908600911498,
+        "y": 0.050756007432938,
+        "z": 0.038851007819176
+      }
+    },
+    "boundingVolumeMissileCfg": {
+      "height": 0.850756004452705,
+      "height_c": 1,
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "0.010000-0.010000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "position": {
+        "x": 0.00027799978852272,
+        "z": -0.0874890014529228
+      },
+      "radius": 0.397937003523113,
+      "size": {
+        "x": 0.259086009114981,
+        "y": 0.0507560074329376,
+        "z": 0.0388510078191757
+      }
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/uploads_files_2676249_BULLET/Bullet.mesh"
+      },
+      "type": "mesh"
+    },
+    "name": {
+      "value": "missile_0c67e760-760d-4961-90b5-d87b268df1c2"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e75e203b718c4561a7d9c38432892e66",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

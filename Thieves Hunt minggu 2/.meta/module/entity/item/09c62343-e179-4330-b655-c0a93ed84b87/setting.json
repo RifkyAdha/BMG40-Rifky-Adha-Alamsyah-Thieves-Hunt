@@ -1,0 +1,52 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown-Haired Soldier With Gun/g2047_npc_partner_3.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_home": {
+      "enable": false,
+      "homeSize": 100,
+      "outOfHome": "random"
+    },
+    "AI_patrol": {
+      "idle": {
+        "prob": {
+          "value": 0.01
+        }
+      },
+      "patrolDistance": 100,
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "ai_navigation": {
+        "enable": true
+      }
+    },
+    "collision": true,
+    "damage": 15,
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "maxHp": 100,
+    "moveSpeed": 5,
+    "name": {
+      "value": "entity_09c62343-e179-4330-b655-c0a93ed84b87"
+    },
+    "skill": [
+      "myplugin/b971dfd7-c40f-4164-9d87-acdf407cd6d0",
+      "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc"
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bb8d1515e35978ee297c3eb7e92514d3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

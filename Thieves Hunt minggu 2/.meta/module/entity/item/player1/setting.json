@@ -1,0 +1,57 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/Soldier In Blue/g2047_npc_partner_1.actor"
+      },
+      "girlactor": {
+        "asset": ""
+      },
+      "modelType": "Customize"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "height_c": 1.7,
+      "radius": 0.43,
+      "radius_c": 0.43,
+      "type": "Capsule"
+    },
+    "canRevive": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "isPlayer": true,
+    "moveSpeed": 5,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "skill": [
+      "myplugin/b971dfd7-c40f-4164-9d87-acdf407cd6d0",
+      "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc"
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9c11cf58a4e0cdb52c0374d65a2ab4e4",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

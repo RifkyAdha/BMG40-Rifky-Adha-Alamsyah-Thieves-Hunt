@@ -1,0 +1,23 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/bullet.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "name": {
+      "value": "item_e131cc7e-48eb-4326-8ed3-c56c4b929a0d"
+    },
+    "stack_count_max": 100
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "424763b223256d8e5aef7b8fdcab0413",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

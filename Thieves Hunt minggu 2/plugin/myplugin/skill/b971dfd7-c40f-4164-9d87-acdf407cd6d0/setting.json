@@ -1,0 +1,95 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "backSwingTime": 0,
+  "castAction": "pistol_shoot",
+  "castActionTime": -1,
+  "castSound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/219455__qubodup__steampunk-crossbow-shot-3.mp3",
+    "selfOnly": false,
+    "sound": "@219455__qubodup__steampunk-crossbow-shot-3.mp3",
+    "volume": 1
+  },
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 0,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeItem": [
+    {
+      "consumeName": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d",
+      "count": 1
+    }
+  ],
+  "consumeVp": 0,
+  "container": {
+    "autoReloadSkill": "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc",
+    "takeNum": 1
+  },
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableCdMask": false,
+  "enableCdTip": false,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "myplugin/frontsight1",
+  "hitEffect": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/bullet.png",
+  "icon_pushed": "",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "preSwingTime": 0,
+  "rayLenth": 0,
+  "recoil": 1,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "sustainAction": "",
+  "trajectoryEffect": "@asset/effect/White Curved Lightning Effect/mzsj201_lightning_01_blue_3d.effect",
+  "type": "Ray",
+  "verticalAlignment": 2
+}

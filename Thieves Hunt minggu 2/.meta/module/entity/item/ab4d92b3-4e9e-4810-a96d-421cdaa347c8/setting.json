@@ -1,0 +1,35 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Small Irregular Canopy Tree/Irregular Tree.actor"
+    },
+    "boundingVolume": {
+      "height": 2,
+      "type": "Cylinder"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 2,
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
+      "type": "Cylinder"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_ab4d92b3-4e9e-4810-a96d-421cdaa347c8"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "07518f68eed3e5b1114d53c7aa526635",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "castAction": "pistol_shoot",
+    "castSound": {
+      "sound": {
+        "asset": "asset/219455__qubodup__steampunk-crossbow-shot-3.mp3"
+      }
+    },
+    "consumeItem": [
+      {
+        "itemType": {
+          "item": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d"
+        }
+      }
+    ],
+    "container": {
+      "autoReloadSkill": "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc",
+      "isValid": true
+    },
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_b971dfd7-c40f-4164-9d87-acdf407cd6d0"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Ray",
+        "recoil": 1,
+        "trajectoryEffect": {
+          "asset": "asset/effect/White Curved Lightning Effect/mzsj201_lightning_01_blue_3d.effect"
+        }
+      },
+      "type": "Ray"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/bullet.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c80f412b1103cdda441e154575fcac90",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

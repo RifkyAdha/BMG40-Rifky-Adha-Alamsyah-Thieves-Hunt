@@ -1,0 +1,23 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_88c09efd-7da9-449f-be90-e34c5372f5bc"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Reload",
+        "consumeItem": {
+          "item": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d"
+        }
+      },
+      "type": "Reload"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8cecf4f572c8faab1240da781aaaf96f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,126 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2042_build_furniture_shinei.actor" Originalscale="1 1 1" Skeleton="bone001.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="0">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g2042_build_furniture_shinei_1F.effect"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_build_furniture_shinei_2F.effect"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-37.1603"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_exit.effect"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0"/>
+					<Position_Y value="4.2381"/>
+					<Position_Z value="-23.9597"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2042_build_furniture_shinei_1F.mesh"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2042_build_furniture_shinei_2F.mesh"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0.0381185"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-37.1603"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2042_build_furniture_shinei_1F_2.mesh"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2042_build_furniture_shinei_2F_2.mesh"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0.0381185"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-37.1603"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+		</Skills>
+		<Anims>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

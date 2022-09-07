@@ -1,0 +1,24 @@
+{
+  "data": {
+    "canUse": true,
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Black Sniper Rifle/gun_06.mesh"
+    },
+    "name": {
+      "value": "item_aeb5256d-57cc-4ab3-8c73-76575b1878a1"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1bddcca1d093d51d2f6831e5795b3318",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}
