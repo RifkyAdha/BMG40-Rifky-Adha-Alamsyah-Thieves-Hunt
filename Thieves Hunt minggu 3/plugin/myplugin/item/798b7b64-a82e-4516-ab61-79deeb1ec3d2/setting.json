@@ -1,0 +1,30 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "container": {
+    "initCapacity": 20,
+    "loadName": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d",
+    "loadType": "Item",
+    "maxCapacity": 20
+  },
+  "dropSpeed": 0.2,
+  "equip_skill": [],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "@asset/military-icon-png-19288.png",
+  "itemname": "item_798b7b64-a82e-4516-ab61-79deeb1ec3d2",
+  "mesh": "asset/Mesh/Black M14EBR Rifle/gun_19.mesh",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": [
+    1
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Green Thick Bush/g2038_grassEffect.actor"
+    },
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_3df9d311-990f-4271-9088-066e98a56bad"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4d4a2828cd9e4fdbe0f2eb2c78393663",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

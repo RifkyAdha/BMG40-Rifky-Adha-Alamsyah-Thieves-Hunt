@@ -1,0 +1,44 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown Rectangular Car/g2035_car_02.actor"
+    },
+    "boundingVolume": {
+      "radius_c": 0.75,
+      "size": {
+        "x": 1.6,
+        "y": 2.8,
+        "z": 5.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-2.500000",
+        "Sphere": "1.000000-2.500000"
+      },
+      "radius_c": 0.75,
+      "size": {
+        "x": 1.6,
+        "y": 2.8,
+        "z": 5.6
+      }
+    },
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_cf699ce4-4717-4d67-98ad-3bcf6196bc3f"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e82b121a13f7d5b8063a5b908db397f6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

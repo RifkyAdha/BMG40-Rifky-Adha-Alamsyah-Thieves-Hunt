@@ -1,0 +1,64 @@
+{
+  "data": {
+    "castAction": "pistol_shoot",
+    "castSound": {
+      "sound": {
+        "asset": "asset/219455__qubodup__steampunk-crossbow-shot-3.mp3"
+      }
+    },
+    "consumeItem": [
+      {
+        "itemType": {
+          "item": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d"
+        }
+      }
+    ],
+    "container": {
+      "autoReloadSkill": "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc",
+      "isValid": true
+    },
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_b971dfd7-c40f-4164-9d87-acdf407cd6d0"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyYawOffset": 90,
+            "missileCfg": "myplugin/0c67e760-760d-4961-90b5-d87b268df1c2",
+            "startPos": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        ],
+        "target": {
+          "type": "FrontSight"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/bullet.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/PngItem_1209296.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3557f18b80709a4ba28db381e43d5d84",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

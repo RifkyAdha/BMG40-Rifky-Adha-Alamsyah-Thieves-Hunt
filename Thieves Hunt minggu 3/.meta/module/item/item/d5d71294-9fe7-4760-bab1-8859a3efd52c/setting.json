@@ -1,0 +1,42 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "icon": {
+      "asset": "asset/military-icon-png-19288.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/b971dfd7-c40f-4164-9d87-acdf407cd6d0",
+          "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc",
+          ""
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemContainer": {
+      "initCapacity": 20,
+      "isValid": true,
+      "itemType": {
+        "item": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d"
+      },
+      "maxCapacity": 20
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Black M416 Rifle/gun_22.mesh"
+    },
+    "name": {
+      "value": "item_d5d71294-9fe7-4760-bab1-8859a3efd52c"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c4eed1c5d10544152c13677ae705e51b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

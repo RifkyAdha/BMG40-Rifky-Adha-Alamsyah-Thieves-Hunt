@@ -1,0 +1,6 @@
+ENTITY_ENTER {
+	AddItem(cfg = "myplugin/798b7b64-a82e-4516-ab61-79deeb1ec3d2", count = 1, entity = $obj1, reason = "")
+	AddItem(cfg = "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d", count = 100, entity = $obj1, reason = "")
+	AddSkill(entity = $obj1, name = "myplugin/b971dfd7-c40f-4164-9d87-acdf407cd6d0")
+	AddSkill(entity = $obj1, name = "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc")
+}

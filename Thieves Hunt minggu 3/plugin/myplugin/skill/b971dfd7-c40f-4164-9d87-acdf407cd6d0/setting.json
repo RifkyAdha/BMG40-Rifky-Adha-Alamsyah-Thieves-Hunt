@@ -1,0 +1,119 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "backSwingTime": 0,
+  "bodyPitchOffset": [
+    0
+  ],
+  "bodyYawOffset": [
+    90
+  ],
+  "castAction": "pistol_shoot",
+  "castActionTime": -1,
+  "castSound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/219455__qubodup__steampunk-crossbow-shot-3.mp3",
+    "selfOnly": false,
+    "sound": "@219455__qubodup__steampunk-crossbow-shot-3.mp3",
+    "volume": 1
+  },
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 0,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeItem": [
+    {
+      "consumeName": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d",
+      "count": 1
+    }
+  ],
+  "consumeVp": 0,
+  "container": {
+    "autoReloadSkill": "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc",
+    "takeNum": 1
+  },
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableCdMask": false,
+  "enableCdTip": false,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "myplugin/frontsight1",
+  "horizontalAlignment": 2,
+  "icon": "@asset/bullet.png",
+  "icon_pushed": "@asset/PngItem_1209296.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/0c67e760-760d-4961-90b5-d87b268df1c2"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "FrontSight",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

@@ -1,0 +1,293 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown-Haired Soldier With Gun/g2047_npc_partner_3.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 40,
+      "enable": true
+    },
+    "AI_home": {
+      "enable": false
+    },
+    "AI_patrol": {
+      "patrolDistance": 100,
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "ai_navigation": {
+        "enable": true
+      }
+    },
+    "collision": true,
+    "damage": 10,
+    "enableAI": true,
+    "equip": [
+      "1"
+    ],
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_7b3f1315-2c8d-42ec-be26-ab7f8f22dcaf"
+    },
+    "skill": [
+      "myplugin/b971dfd7-c40f-4164-9d87-acdf407cd6d0",
+      "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c66f47d1-d70e-4a4c-9b1d-2549635401e2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/798b7b64-a82e-4516-ab61-79deeb1ec3d2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2ea0f7db-5ea5-415b-990b-d974b833367b"
+              },
+              "pos": {
+                "x": 840,
+                "y": 228
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0421799e-44ad-4acc-8572-d234fd5e5f3a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 100
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6d829e15-efb4-4ba0-ac7b-19fb2640b6eb"
+              },
+              "pos": {
+                "x": 875,
+                "y": 434
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "c66f47d1-d70e-4a4c-9b1d-2549635401e2"
+              },
+              "pos": {
+                "x": 1382,
+                "y": 267
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "0421799e-44ad-4acc-8572-d234fd5e5f3a"
+              },
+              "pos": {
+                "x": 1421,
+                "y": 560
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "59bf1937-86e8-447c-87fb-34d3a4f1bc2f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/b971dfd7-c40f-4164-9d87-acdf407cd6d0"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d2fab2d7-b836-4cf4-9ec9-0c191b323e33"
+              },
+              "pos": {
+                "x": 905,
+                "y": 722
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "59bf1937-86e8-447c-87fb-34d3a4f1bc2f"
+              },
+              "pos": {
+                "x": 1391,
+                "y": 796
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d023ff4a-089b-4d9e-b9ae-8e1d8187e7aa"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7019474f-d8b8-49d8-ab2c-0fd1d606960d"
+              },
+              "pos": {
+                "x": 879,
+                "y": 981
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d023ff4a-089b-4d9e-b9ae-8e1d8187e7aa"
+              },
+              "pos": {
+                "x": 1445,
+                "y": 988
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "d5f006d9-418e-40d8-8fc9-90f948ba39fb"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2ea0f7db-5ea5-415b-990b-d974b833367b"
+                  },
+                  {
+                    "action": "6d829e15-efb4-4ba0-ac7b-19fb2640b6eb"
+                  },
+                  {
+                    "action": "d2fab2d7-b836-4cf4-9ec9-0c191b323e33"
+                  },
+                  {
+                    "action": "7019474f-d8b8-49d8-ab2c-0fd1d606960d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "90cbf548-5a79-4622-a1b0-d26047bb9b24"
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c27d1de3a0f89a04379ea2af26a1788d",
+      "triggers.bts": "c5b08b726ba52472f5dbf254469f0bfb"
+    },
+    "VERSION": "0.24"
+  }
+}

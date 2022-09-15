@@ -1,0 +1,28 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "container": {
+    "initCapacity": 20,
+    "loadName": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d",
+    "loadType": "Item",
+    "maxCapacity": 20
+  },
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/military-icon-png-19288.png",
+  "itemname": "item_d5d71294-9fe7-4760-bab1-8859a3efd52c",
+  "mesh": "asset/Mesh/Black M416 Rifle/gun_22.mesh",
+  "needSave": true,
+  "skill": [
+    "myplugin/b971dfd7-c40f-4164-9d87-acdf407cd6d0",
+    "myplugin/88c09efd-7da9-449f-be90-e34c5372f5bc"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

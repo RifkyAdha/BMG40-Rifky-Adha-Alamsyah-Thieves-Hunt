@@ -1,0 +1,36 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Black And White Rectangular Police Car/g2035_car_04.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "z": 5.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
+      "size": {
+        "z": 5.6
+      }
+    },
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_c02e4821-7292-4af4-9a06-d6f6a24b1177"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c28adc682b005d2e369fd12350ec8b1a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}
