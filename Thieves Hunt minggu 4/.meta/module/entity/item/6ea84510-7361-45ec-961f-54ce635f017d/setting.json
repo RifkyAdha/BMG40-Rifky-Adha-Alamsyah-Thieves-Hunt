@@ -1,0 +1,40 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Red And Green Double-Story Small Building/g2038_build_05.actor"
+    },
+    "boundingScaleWithSize": false,
+    "boundingVolume": {
+      "size": {
+        "x": 9.6,
+        "y": 9.8,
+        "z": 6.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "x": 9.6,
+        "y": 9.8,
+        "z": 6.6
+      }
+    },
+    "canJump": false,
+    "canMove": false,
+    "checkPartTouchEvent": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_6ea84510-7361-45ec-961f-54ce635f017d"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "577d19afa96bd3b312dc881f90ee148d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

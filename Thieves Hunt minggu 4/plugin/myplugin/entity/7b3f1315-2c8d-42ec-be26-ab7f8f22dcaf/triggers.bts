@@ -1,0 +1,8 @@
+ENTITY_ENTER {
+	AddItem(cfg = "myplugin/798b7b64-a82e-4516-ab61-79deeb1ec3d2", count = 1, entity = $obj1, reason = "")
+	AddItem(cfg = "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d", count = 100, entity = $obj1, reason = "")
+}
+
+ENTITY_HITTED {
+	StartAI(entity = $obj2)
+}

@@ -1,0 +1,4 @@
+ENTITY_ENTER {
+	AddItem(cfg = "myplugin/d5d71294-9fe7-4760-bab1-8859a3efd52c", count = 1, entity = $obj1, reason = "")
+	AddItem(cfg = "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d", count = 100, entity = $obj1, reason = "")
+}

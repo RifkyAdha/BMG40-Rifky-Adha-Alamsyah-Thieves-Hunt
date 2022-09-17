@@ -1,0 +1,29 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "container": {
+    "initCapacity": 0,
+    "loadType": "Custom",
+    "maxCapacity": 0
+  },
+  "dropSpeed": 0.2,
+  "equip_skill": [],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "@asset/bullet.png",
+  "itemname": "item_e131cc7e-48eb-4326-8ed3-c56c4b929a0d",
+  "mesh": "asset/uploads_files_2676249_BULLET/Bullet1.mesh",
+  "needSave": false,
+  "stack_count_max": 100,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": [
+    1
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Red Rectangle Car/Red Car.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "x": 1.6,
+        "z": 4.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "x": 1.6,
+        "z": 4.6
+      }
+    },
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_7ada4de8-b9d7-490e-ac84-073a9c8f36c4"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7d28914033768a7c6574334636f6db04",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

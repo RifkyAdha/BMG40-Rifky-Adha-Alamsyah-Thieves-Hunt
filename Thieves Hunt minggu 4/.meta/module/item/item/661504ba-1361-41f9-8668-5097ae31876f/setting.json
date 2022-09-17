@@ -1,0 +1,24 @@
+{
+  "data": {
+    "canUse": true,
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "mesh": {
+      "asset": "asset/Heart/Heart.mesh"
+    },
+    "name": {
+      "value": "item_661504ba-1361-41f9-8668-5097ae31876f"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "319726d69e7943b9d960e140e8bcbcca",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

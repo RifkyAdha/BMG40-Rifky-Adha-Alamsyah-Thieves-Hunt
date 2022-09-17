@@ -1,0 +1,43 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Small Ancient White Building/Ancient Small Building1.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "x": 19.6,
+        "y": 6.8,
+        "z": 19.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "size": {
+        "x": 19.6,
+        "y": 6.8,
+        "z": 19.6
+      }
+    },
+    "checkPartTouchEvent": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_095e7eea-d8cb-4333-abb0-18dca42ef2ad"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "18c841ede923ace759438a96fbaaaa37",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

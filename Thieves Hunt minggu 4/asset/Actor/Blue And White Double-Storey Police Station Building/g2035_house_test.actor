@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2035_house_test.actor" Originalscale="1 1 1" Skeleton="g2035_building_test.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2035_building_test.skin" ChangeColor = "0 0 0 0" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "g2035_building_test_2.skin" ChangeColor = "1.22204e-34 0 0 1.22204e-34" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "true" UseTransparentNearestSlice = "false" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="close" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_building_test_run2.anim" BeginTime = "0" Times = "1" Length = "0.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_building_test_idle.anim" BeginTime = "0" Times = "-1" Length = "0.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_building_test_idle2.anim" BeginTime = "0" Times = "-1" Length = "0.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="open" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_building_test_run.anim" BeginTime = "0" Times = "1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2035_building_test_idle.anim"/>
+				<Anim Name="g2035_building_test_idle2.anim"/>
+				<Anim Name="g2035_building_test_run.anim"/>
+				<Anim Name="g2035_building_test_run2.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

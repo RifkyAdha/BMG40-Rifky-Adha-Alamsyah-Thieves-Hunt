@@ -1,0 +1,4 @@
+REGION_ENTER {
+	GameOverToPlayer(entity = $obj1)
+	ShowSystemChat(entity = $obj1, key = "85bca8d5-5493-42ce-9627-b944cba5b4f1")
+}

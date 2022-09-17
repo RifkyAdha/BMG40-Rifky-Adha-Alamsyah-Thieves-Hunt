@@ -1,0 +1,34 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/military-icon-png-19288.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip",
+        "tray": "1"
+      }
+    },
+    "itemContainer": {
+      "initCapacity": 20,
+      "isValid": true,
+      "itemType": {
+        "item": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d"
+      },
+      "maxCapacity": 20
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Black M14EBR Rifle/gun_19.mesh"
+    },
+    "name": {
+      "value": "item_798b7b64-a82e-4516-ab61-79deeb1ec3d2"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "74deb8fb380833aa8ddc6ec8803ec6ec",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

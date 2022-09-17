@@ -1,0 +1,75 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8806656432906731521"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8806656433003839489",
+        "ID": 3,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8806656433127391233",
+        "ID": 4,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/fec5edde-1e46-45c3-9206-49b9457ca44a",
+        "id": "8806656678611501057",
+        "name": "Game Start",
+        "position": {
+          "x": -0.143306985497475,
+          "y": 0.999898910522461,
+          "z": -7.35780334472656
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/a5efd7ad-3b54-464a-b8c9-844e85efb8f1",
+        "id": "8806657028632903681",
+        "position": {
+          "x": -0.15117621421814,
+          "y": 6.66168308258057,
+          "z": -7.03577423095703
+        },
+        "scale": {
+          "x": 8.1439,
+          "y": 10.0879,
+          "z": 9.81398
+        },
+        "size": {
+          "x": 8.14390277862549,
+          "y": 10.0879020690918,
+          "z": 9.81398010253906
+        }
+      }
+    ],
+    "name": {
+      "value": "map_e26dd330-14fe-4887-adce-d647591af09b"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a5bb75e235e0b8ac6b982a4e0090b07a"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "icon": {
+      "asset": "asset/bullet.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip",
+        "tray": "1"
+      }
+    },
+    "itemContainer": {
+      "isValid": true
+    },
+    "mesh": {
+      "asset": "asset/uploads_files_2676249_BULLET/Bullet1.mesh"
+    },
+    "name": {
+      "value": "9d20da4f-12f6-4e9a-8056-f23b8291841a"
+    },
+    "stack_count_max": 100,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "eda0b6fa-84af-426b-a41f-1a2580ec6cb0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/e131cc7e-48eb-4326-8ed3-c56c4b929a0d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4b847c9d-d6f2-41ad-a70c-e38ec42a179b"
+              },
+              "pos": {
+                "x": 869,
+                "y": 279
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "eda0b6fa-84af-426b-a41f-1a2580ec6cb0"
+              },
+              "pos": {
+                "x": 1315,
+                "y": 341
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "cb5bc3d3-a00c-4f83-91c8-68c87027f85d"
+            },
+            "type": "Trigger_DropItemPicked"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "4b847c9d-d6f2-41ad-a70c-e38ec42a179b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "4f4137f3-2f72-41ce-8a38-994dc5e8eee1"
+            },
+            "pos": {
+              "x": 402,
+              "y": 290
+            }
+          },
+          "type": "Trigger_DropItemPicked"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1e91b3cb505c3792c2bf7ad88a512490",
+      "triggers.bts": "4d4f766c01e208c49be919992dcbff3d"
+    },
+    "VERSION": "0.24"
+  }
+}

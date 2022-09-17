@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "",
+  "itemname": "item_aeb5256d-57cc-4ab3-8c73-76575b1878a1",
+  "mesh": "asset/Mesh/Black Sniper Rifle/gun_06.mesh",
+  "needSave": false,
+  "skill": [],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}
